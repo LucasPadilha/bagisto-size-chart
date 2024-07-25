@@ -3,7 +3,7 @@
 namespace Webkul\SizeChart\Datagrids;
 
 use Illuminate\Support\Facades\DB;
-use Webkul\Ui\DataGrid\DataGrid;
+use Webkul\DataGrid\DataGrid;
 
 class TemplateDataGrid extends DataGrid
 {
