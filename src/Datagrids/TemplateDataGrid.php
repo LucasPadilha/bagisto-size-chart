@@ -18,7 +18,7 @@ class TemplateDataGrid extends DataGrid
         $this->setQueryBuilder($queryBuilder);
     }
 
-    public function addColumns()
+    public function prepareColumns()
     {
         $this->addColumn([
             'index'      => 'id',
